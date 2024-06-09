@@ -1,27 +1,13 @@
-/* google fonts  */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
+   @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-/* FONT  */
-
-* {
+  *{
     margin: 0;
     padding: 0;
-    /* font-family: "Lato", sans-serif; */
     font-family: "Lato", sans-serif;
-    /* font-weight: 100;
-    font-weight: 300; */
-    /* font-weight: 400; */
-    /* font-weight: 700;
-    font-weight: 900;
-    font-weight: 100;
-    font-weight: 300;
-    font-weight: 400; */
-    /* font-weight: 700; */
-    /* font-weight: 900; */
-}
+  }
 
-p {
+  p {
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
     font-size: 18px;
@@ -29,45 +15,46 @@ p {
     font-weight: 400;
     line-height: 30px;
     /* 166.667% */
-}
-button{
+  }
+
+  button {
     border-radius: 8px;
-background: #E55473;
-color: #fff;
-border: none;
-font-size: 20px;
-padding: 15px 28px;
-}
+    background: #E55473;
+    color: #FFF;
+    border: none;
+  font-size: 20px;
+  padding: 15px 32.25px;
+  
+  }
 
-header {
+  header {
     background: rgba(229, 84, 115, 0.10);
-}
+  }
 
-.container {
+  .container {
     width: 75%;
     max-width: 1440px;
     margin: 0 auto;
-}
+  }
 
-.banner {
+  .banner {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.banner .banner-text{
+  }
+  .banner .banner-text *{
     margin-bottom: 32px;
     max-width: 525px;
-}
-.banner .banner-text h1{
+  }
+  .banner .banner-text h1 {
     color: #272727;
     font-family: Lato;
     font-size: 60px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-}
-.banner .banner-image img{
-width: 100%;
-vertical-align: middle;
-}
+  }
+  .banner .banner-img img{
+    width: 100%;
+    vertical-align: middle;
+  }
